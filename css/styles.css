@@ -24,6 +24,9 @@ body {
     background-color: rgb(218, 211, 211);
 }
 
+p {
+    text-align: left;
+}
 
 /* Estilos nav */
 .header {
@@ -117,6 +120,11 @@ body {
     color: white;
     padding: 30px;
     margin: 60px;
+}
+
+.precios-productos {
+    color: tomato;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Estilos footer */
