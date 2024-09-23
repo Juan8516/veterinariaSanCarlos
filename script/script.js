@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-const botonContacto = getElementById('button-contacto');
+const buttonContacto = document.getElementById('buttonContacto');
 
-botonContacto.addEventListener('click', function() {
+buttonContacto.addEventListener('click', function() {
     alert('Informacion recibida, contactaremos lo antes posible');
 });
