@@ -21,10 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     boton4.addEventListener('click', function() {
         alert('Agregado al carrito');
     });
+
 });
 
-const buttonContacto = document.getElementById('buttonContacto');
 
-buttonContacto.addEventListener('click', function() {
-    alert('Informacion recibida, contactaremos lo antes posible');
-});
+
