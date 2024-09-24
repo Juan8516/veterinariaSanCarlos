@@ -1,0 +1,33 @@
+<!-- agenda.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Cita</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h3>Agendar Cita</h3>
+    <form id="form-cita">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="fecha">Fecha: </label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+        
+        <label for="hora">Hora: </label>
+        <input type="time" id="hora" name="hora" required><br><br>
+        
+        <label for="mascota">Nombre de la mascota: </label>
+        <input type="text" id="mascota" name="mascota" required><br><br>
+        
+        <button id="confirmacionCita" class="button-carrito" type="submit">Confirmar Cita</button>
+    </form>
+
+    <script src="script/scriptCitas.js"></script>
+</body>
+</html>
