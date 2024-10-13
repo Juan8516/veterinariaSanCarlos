@@ -1,98 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <title>Veterinaria SanCarlos</title>
+    <title>VeterinariaSanCarlos</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub&family=Raleway:wght@100&family=Source+Sans+Pro:wght@900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="index.html">
-                <img class="nav-imagen" src="img/SanCarlos.png" alt="imagen Home" width="48" height="24">
-            </a>
-            <a href="carrito.html">Carrito</a> 
-            <a href="blog.html">Blog</a> 
-            <a href="contacto.html">Contacto</a> 
-        </nav>
-    </div>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/SanCarlos.png" alt="Imagen Principal" width="580" height="230">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Home</a>
+        <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="blog.html">Blog</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nuestros Productos</h1>
+
+        <div class="grid">
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/1.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">VueJS</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/2.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">AngularJS</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/3.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">React</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/4.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">Redux</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/5.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">NodeJS</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/6.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">Sass</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/7.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">HTML5</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/8.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">GitHub</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/9.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">BulmaCSS</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/10.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">TypeScript</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/11.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">Drupal</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/12.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">JavaScript</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/13.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">GraphQL</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/14.jpg" alt="Imagen Camiseta">
+                    <div class="producto__informacion">
+                </a>
+                        <p class="producto__nombre">WordPress</p>
+                        <p class="producto__precio">$25.000</p>
+                    </div>
+            </div>
+    
+            <div class="grafico grafico--camisas"></div>
+            <div class="grafico grafico--node"></div>
+    
+        </div><!--.producto-->
+        
+    </main>
 
     
-    <div class="productos">
-        <div class="productos">
-            <h3>URANOTEST COPRO * UNIDAD: <span class="precios-productos">$50.000</span></h3>
-            <img src="img/imagenProducto1.jpg" alt="Imagen" width="350px" height="400px">
-            <p>
-                Frasco con conservante Greenfix®, no tóxico y no agresivo con el 
-                medio ambiente, que asegura la conservación e integridad de la 
-                muestra durante 15 días. El mismo frasco incorpora un filtro de 
-                260 micras que deja pasar huevos, quistes y larvas y retiene las 
-                partículas gruesas, obteniéndose una muestra limpia apta para 
-                análisis microscópico.
-            </p>
 
-            <div class="button-contenedor">
-                <button id="button1" class="button-producto">Agregar al carrito</button>
-            </div>
-        </div>
+    <footer class="footer">
+        <p class="footer__texto">Store Tshirts - Todos los derechos reservados 2022.</p>
+    </footer>
 
-        <div class="productos">
-            <h3>ADVANTAGE DOG 25-40KG*4.0ML: <span class="precios-productos">$30.000</span></h3>
-            <img src="img/imagenProducto2.jpg" alt="Imagen" width="350px" height="400px">
-            <p>
-                ADVANTAGE es un pulguicida y piojicida de rápida acción, que actúa 
-                por contacto, listo para usarse, seguro (no se absorbe sistémicamente) 
-                y de fácil aplicación externa, que consiste en la administración de una 
-                pequeña dosis de solución sobre la piel (tópica). 
-            </p>
-
-            <div class="button-contenedor">
-                <button id="button2" class="button-producto">Agregar al carrito</button>
-            </div>
-        </div>
-
-        <div class="productos">
-            <h3>CREDELIO GATO 12 MG 0.5 -2 KG * 3 TAB L: <span class="precios-productos">$40.000</span></h3>
-            <img src="img/imagenProducto3.jpg" alt="Imagen" width="350px" height="400px">
-            <p>
-                La tableta saborizada Credelio™ protege a perros y gatos hasta 
-                por 1 mes de las garrapatas y pulgas.
-
-                Credelio™ es una opción de fácil aplicación, saborizada que le 
-                encantará a tu mascota, la protege de garrapatas y pulgas hasta 
-                por 1 mes, cuidándolo y protegiéndolo de dichos parásitos externos.
-            </p>
-
-            <div class="button-contenedor">
-                <button id="button3" class="button-producto">Agregar al carrito</button>
-            </div>
-        </div>
-
-        <div class="productos">
-            <h3>FRONTLINE 2.68 ML(20 a 40 Kg): <span class="precios-productos">$60.000</span></h3>
-            <img src="img/imagenProducto4.jpg" alt="Imagen" width="350px" height="400px">
-            <p>
-                La administración de Frontline® contribuye al tratamiento y 
-                prevención de las infestaciones generadas por pulgas, garrapatas 
-                y piojo picador.
-            </p>
-
-            <div class="button-contenedor">
-                <button id="button4" class="button-producto">Agregar al carrito</button>
-            </div>
-        </div>
-    </div>
-
-    <script src="/script/scriptTienda.js"></script>
-   
-    <footer class="footer"><p class="font-footer">Todos los derechos reservados</p></footer>
 
 </body>
 </html>

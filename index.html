@@ -1,105 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Veterinaria SanCarlos</title>
+    <title>VeterinariaSanCarlos</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub&family=Raleway:wght@100&family=Source+Sans+Pro:wght@900&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="index.html">
-                <img class="nav-imagen" src="img/SanCarlos.png" alt="imagen Home" width="48" height="24">
-            </a>
-            <a href="tienda.html">Tienda</a> 
-            <a href="carrito.html">Carrito</a> 
-            <a href="blog.html">Blog</a> 
-            <a href="contacto.html">Contacto</a> 
-        </nav>
-    </div>
 
-    <header class="titulo"><strong>Quienes Somos ?</strong></header>
-    <div class="header">
-        <p>
-            En Veterinaria San Carlos, nos dedicamos al bienestar integral de tu 
-            mascota. Somos un equipo de profesionales apasionados por el cuidado 
-            animal, y nuestra misión es ofrecer servicios de alta calidad tanto en 
-            productos como en cuidados estéticos. A través de nuestra tienda online, 
-            ponemos a tu disposición una amplia gama de productos para la salud y el 
-            bienestar de tus mascotas, incluyendo alimentos especializados, juguetes, 
-            y accesorios.
-        </p>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/SanCarlos.png" alt="Imagen Principal" width="580" height="230">
+        </a>
+    </header>
 
-        <img class="imagen-header" src="img/imagenHome.png" alt="Imagen Header">
-    </div>
-
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="blog.html">Blog</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="contacto.html">Contacto</a>
+    </nav>
     
-    <div class="contenido-info">
-        <article>
-            <h3>Tips Cuidado</h3>
-            <p>
-                Estos son ácidos grasos esenciales que tu perro notará en toda su 
-                salud general, y que se verán reflejados en su pelaje en forma de 
-                brillo y suavidad. Provienen de alimentos tanto animales y vegetales, 
-                como:
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>
+                    En Veterinaria San Carlos, nos dedicamos al bienestar integral 
+                    de tu mascota. Somos un equipo de profesionales apasionados por 
+                    el cuidado animal, y nuestra misión es ofrecer servicios de alta
+                    calidad tanto en productos como en cuidados estéticos, nos 
+                    especializamos en brindar atención personalizada para garantizar
+                    la salud y felicidad de tu mascota. Además, trabajamos con los 
+                    mejores insumos y tecnologías para asegurar resultados óptimos 
+                    en cada tratamiento. 
+                </p>
 
-                <ul>
-                    <li>El salmón</li>
-                    <li>El aceite de pescado</li>
-                    <li>Semillas de lino</li>
-                    <li>Semillas de girasli</li>
-                    <li>Semillas de calabaza</li>
-                    <li>Aceite de coco</li>
-                </ul>
-            </p>
-        </article>
-    
-        <article>
-            <h3>Horarios de atencion</h3>
-            <p>
-                <ul>
-                    <li>Lunes a Viernes: 8:00 AM - 6:00 PM</li>
-                    <li>Sábados: 9:00 AM - 1:00 PM</li>
-                    <li>Domingos y festivos: Cerrado</li>
-                </ul>
-                Estamos disponibles para atenderte y brindar el mejor cuidado a 
-                tu mascota dentro de estos horarios. ¡No dudes en visitarnos o 
-                separar tu consulta en línea!
-            </p>
-    
-            <div class="button-contenedor">
-                <button class="button-reservas">Agendar cita</button>
+                <p>
+                    A través de nuestra tienda online, ponemos a tu disposición una 
+                    amplia gama de productos para la salud y el bienestar de tus 
+                    mascotas, incluyendo alimentos especializados, juguetes, y 
+                    accesorios. Además, ofrecemos opciones de compra cómodas y 
+                    seguras, con envíos rápidos a domicilio para que puedas cuidar 
+                    a tu mascota sin complicaciones.                
+                </p>
             </div>
+            <img class="nosotros__imagen" src="/img/imagenNosotros.jpg" alt="Imagen Nosotros">
+        </div>
+    </main>
 
-        </article>
-    
-        <article>
-            <h3>Partners</h3>
-            <p>
-                En Veterinaria San Carlos, estamos orgullosos de contar con 
-                importantes convenios que refuerzan nuestro compromiso con el 
-                bienestar animal. Trabajamos de la mano con la Alcaldía de 
-                Manizales, apoyando campañas de vacunación y bienestar para 
-                mascotas de la ciudad. Además, colaboramos estrechamente con 
-                la Fundación Pequeño Peludo y la Fundación Garritas Felices, 
-                dos organizaciones dedicadas al rescate y cuidado de animales 
-                en situación de vulnerabilidad. Juntos, buscamos promover una
-                mejor calidad de vida para los animales, impulsando iniciativas 
-                de adopción responsable, cuidados médicos y estéticos, y 
-                concientización sobre el bienestar animal.
-            </p>
-        </article>
-    </div>
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">Porque comprar con nosotros</h2>
 
-    <script src="script/scriptCitas.js"></script>
-    
-    <footer class="footer"><p class="font-footer">Todos los derechos reservados</p></footer>
+        <div class="bloques">
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-coins" width="222" height="174" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 14c0 1.657 2.686 3 6 3s6 -1.343 6 -3s-2.686 -3 -6 -3s-6 1.343 -6 3z" />
+                    <path d="M9 14v4c0 1.656 2.686 3 6 3s6 -1.344 6 -3v-4" />
+                    <path d="M3 6c0 1.072 1.144 2.062 3 2.598s4.144 .536 6 0c1.856 -.536 3 -1.526 3 -2.598c0 -1.072 -1.144 -2.062 -3 -2.598s-4.144 -.536 -6 0c-1.856 .536 -3 1.526 -3 2.598z" />
+                    <path d="M3 6v10c0 .888 .772 1.45 2 2" />
+                    <path d="M3 11c0 .888 .772 1.45 2 2" />
+                </svg>                    <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>En Veterinaria San Carlos, nos comprometemos a ofrecerte los 
+                   mejores precios del mercado sin comprometer la calidad de 
+                   nuestros productos. Sabemos lo importante que es cuidar de tu 
+                   mascota sin afectar tu presupuesto, </p>
+            </div><!--bloque-->
+
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-clock" width="222" height="174" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10.5 21h-4.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v3" />
+                    <path d="M16 3v4" />
+                    <path d="M8 3v4" />
+                    <path d="M4 11h10" />
+                    <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                    <path d="M18 16.5v1.5l.5 .5" />
+                </svg>                <h3 class="bloque__titulo">Horarios</h3>
+                <p>
+                    Estamos disponibles para atenderte y brindar el mejor cuidado a 
+                    tu mascota dentro de estos horarios. ¡No dudes en visitarnos o 
+                    separar tu consulta en línea!<br/>
+                    <h4>Lunes a Viernes 8am a 6pm</h4>
+                    <h4>Sabados 8am a 1pm</h4>
+                </p>
+            </div><!--bloque-->
+
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="222" height="174" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10 14l11 -11" />
+                    <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                  </svg>                
+                  <h3 class="bloque__titulo">Envio Gratis</h3>
+                <p>En Veterinaria San Carlos, premiamos tu lealtad con envíos 
+                   totalmente gratuitos en todas las compras superiores a $200,000. 
+                   No importa dónde te encuentres, nos aseguramos de que los 
+                   productos para tu mascota lleguen a la puerta de tu hogar sin 
+                   costos adicionales.
+                </p>
+            </div><!--bloque-->
+
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-coins" width="222" height="174" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 14c0 1.657 2.686 3 6 3s6 -1.343 6 -3s-2.686 -3 -6 -3s-6 1.343 -6 3z" />
+                    <path d="M9 14v4c0 1.656 2.686 3 6 3s6 -1.344 6 -3v-4" />
+                    <path d="M3 6c0 1.072 1.144 2.062 3 2.598s4.144 .536 6 0c1.856 -.536 3 -1.526 3 -2.598c0 -1.072 -1.144 -2.062 -3 -2.598s-4.144 -.536 -6 0c-1.856 .536 -3 1.526 -3 2.598z" />
+                    <path d="M3 6v10c0 .888 .772 1.45 2 2" />
+                    <path d="M3 11c0 .888 .772 1.45 2 2" />
+                  </svg>                
+                  <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Nos aseguramos de ofrecer productos de la más alta calidad para 
+                   el cuidado y bienestar de tu mascota. Cada artículo en nuestra 
+                   tienda ha sido cuidadosamente seleccionado para cumplir con los 
+                   más altos estándares de seguridad y efectividad.
+                </p>
+            </div><!--bloque-->
+        </div><!--bloques-->
+        
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados 2024.</p>
+    </footer>
 
 </body>
+
 </html>
