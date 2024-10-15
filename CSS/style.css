@@ -74,7 +74,7 @@ h4 {
 .header {
     display: flex;
     justify-content: flex-start;
-    margin-left: 20rem;
+    margin-left: 10rem;
 }
 
 /*Footer*/
@@ -94,23 +94,23 @@ h4 {
 .header__logo {
     display: flex;
     justify-content:first baseline;
-    margin: 2rem 0;
+    margin: 0 0;
 
 }
 
 /**Navegacion**/
 .navegacion {
     background-color: var(--primarioOscuro);
-    padding: 1rem 30rem;
+    padding: 1rem 20rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
-    margin-right: 2rem;
+    margin-right: 10rem;
 }
 
 .navegacion__enlace:last-of-type {
@@ -257,10 +257,65 @@ h4 {
     
 }
 
+/*Blog*/
+.informacion-meta span {
+    color: #000000;
+}
+
+.link-entrada:hover {
+        color: var(--primarioOscuro); /* Cambiar color al hacer hover */
+        text-decoration: underline; /* Subrayado al hacer hover */
+        text-decoration-thickness: 3px;
+}
+
+.entrada-blog {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .entrada-blog {
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.entrada-blog:last-of-type {
+    margin-bottom: 0;
+}
+
+.texto-entrada a {
+    color: #000;
+    display: block;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .texto-entrada a {
+        margin-top: 0;
+    }
+}
+
+.texto-entrada h4 {
+    line-height: 1.4;
+    margin: 0;
+}
+
+.texto-entrada h4:after {
+    background-color: var(--primarioOscuro);
+    content: "";
+    display: block;
+    height: .5rem;
+    margin-top: 1rem;
+    width: 15rem;
+}
+
 .color__texto {
     color: var(--negro);
 }
 
+/*Formulario*/
 .formulario__submit {
     background-color: var(--secundario);
     border: none;
