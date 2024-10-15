@@ -24,5 +24,60 @@
     <nav class="navegacion">
         <a class="navegacion__enlace" href="index.html">Home</a>
         <a class="navegacion__enlace" href="tienda.html">Tienda</a>
-        <a class="navegacion__enlace" href="blog.html">Blog</a>
+        <a class="navegacion__enlace" href="contacto.html">Contacto</a>
     </nav>
+
+    <main class="contenedor seccion">
+        <h1>Contacto</h1>
+
+        <h2>Llene el formulario de contacto</h2>
+
+        <form action="" class="formulario">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tu Nombre" id="nombre">
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="Tu Email" id="email">
+
+                <label for="telefono">Telefono</label>
+                <input type="telefono" placeholder="Tu Telefono" id="telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacto</legend>
+
+                <p>Como desea ser contactado</p>
+
+                <div class="forma-contacto">
+                    <label for="contactar-telefono">Telefono</label>
+                    <input name="contacto" type="radio" value="telefono" id="contactar-telefono">
+
+                    <label for="contactar-email">E-Mail</label>
+                    <input name="contacto" type="radio" value="email" id="contactar-email">
+                </div>
+
+                <p>Si eligio telefono, elija la fecha y la hora para contactar</p>
+
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora</label>
+                <input type="time" id="hora" min="09:00" max="17:00"> 
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton-personalizado boton-personalizado_ubicacion">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados 2024.</p>
+    </footer>
+
+</body>
+</html>
