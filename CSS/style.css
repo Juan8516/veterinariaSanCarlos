@@ -173,6 +173,10 @@ legend {
     color: var(--negro);
 }
 
+.enlace-carrito {
+    color: var(--negro);
+}
+
 /**Grid**/
 .grid {
     display: grid;
@@ -208,6 +212,37 @@ legend {
     text-align: center;
     line-height: 1;
 }
+
+.image-container {
+    position: relative;
+    width: 300px; /* Ajusta el tamaño según tu necesidad */
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
 
 /**Graficos**/
 .grafico {
