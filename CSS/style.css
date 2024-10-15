@@ -80,7 +80,24 @@ legend {
 .header {
     display: flex;
     justify-content: flex-start;
-    margin-left: 10rem;
+    margin-left: 20rem;
+}
+
+/*Fondo Header*/
+.header-fondo {
+    position: relative;
+    background-image: url('/img/ImagenFondo.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+
+.header a {
+    position: relative;
+    z-index: 2;
 }
 
 /*Footer*/
@@ -100,7 +117,7 @@ legend {
 .header__logo {
     display: flex;
     justify-content:first baseline;
-    margin: 0 0;
+    margin: 5rem 0;
 
 }
 
