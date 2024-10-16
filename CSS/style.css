@@ -243,6 +243,69 @@ legend {
     opacity: 1;
 }
 
+/**Carrito**/
+/* Contenedor */
+.contenedor {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+/* Row (flexbox para alinear elementos) */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Main contenido */
+.conte {
+    flex: 0 0 65%; /* Toma el 65% del ancho */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-right: 20px;
+}
+
+/* Aside carrito */
+.carrito {
+    flex: 0 0 30%; /* Toma el 30% del ancho */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Lista del carrito */
+.list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Texto de total */
+.total-text {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Botón vaciar carrito */
+.btn-vaciar {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.btn-vaciar:hover {
+    background-color: #e60000;
+}
+
+
 
 /**Graficos**/
 .grafico {

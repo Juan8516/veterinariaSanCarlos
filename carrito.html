@@ -21,12 +21,12 @@
         </a>
         <img class=".header__logo-bg" src="img/imagenAtras.jpg" alt="Imagen Secundaria">
     </header>
-
+    
     <nav class="navegacion">
         <a class="navegacion__enlace" href="tienda.html">Tienda</a>
         <a class="navegacion__enlace" href="blog.html">Blog</a>
         <a class="navegacion__enlace" href="contacto.html">Contacto</a>
-        <a class= "enlace-carrito" href="carrito.html">
+        <a href="enlace-carrito">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart-dollar" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
@@ -37,54 +37,26 @@
               </svg>
         </a>
     </nav>
+    
+    <div class="contenedor">
+        <div class="container">
+            <div class="row">
+                <!-- Elementos generados a partir del JSON -->
+                <main class="conte" id="items"></main>
+                <!-- Carrito -->
+                <aside class="carrito">
+                    <h2>Carrito</h2>
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- Precio total -->
+                    <p class="total-text">Total: <span id="total"></span>$</p>
+                    <button id="boton-vaciar" class="btn-vaciar">Vaciar</button>
+                </aside>
+            </div>
+        </div>
+    </div>
 
-    <main class="contenedor seccion">
-        <h1>Contacto</h1>
-
-        <h2>Llene el formulario de contacto</h2>
-
-        <form action="" class="formulario">
-            <fieldset>
-                <legend>Informacion Personal</legend>
-
-                <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Tu Nombre" id="nombre">
-
-                <label for="email">Email</label>
-                <input type="email" placeholder="Tu Email" id="email">
-
-                <label for="telefono">Telefono</label>
-                <input type="telefono" placeholder="Tu Telefono" id="telefono">
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje"></textarea>
-            </fieldset>
-
-            <fieldset>
-                <legend>Contacto</legend>
-
-                <p>Como desea ser contactado</p>
-
-                <div class="forma-contacto">
-                    <label for="contactar-telefono">Telefono</label>
-                    <input name="contacto" type="radio" value="telefono" id="contactar-telefono">
-
-                    <label for="contactar-email">E-Mail</label>
-                    <input name="contacto" type="radio" value="email" id="contactar-email">
-                </div>
-
-                <p>Si eligio telefono, elija la fecha y la hora para contactar</p>
-
-                <label for="fecha">Fecha</label>
-                <input type="date" id="fecha">
-
-                <label for="hora">Hora</label>
-                <input type="time" id="hora" min="09:00" max="17:00"> 
-            </fieldset>
-
-            <input type="submit" value="Enviar" class="boton-personalizado boton-personalizado_ubicacion">
-        </form>
-    </main>
 
     <footer class="footer">
         <p class="footer__texto">Todos los derechos reservados 2024.</p>
@@ -92,3 +64,4 @@
 
 </body>
 </html>
+
