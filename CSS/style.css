@@ -91,6 +91,7 @@ legend {
     height: 0auto;
     z-index: 2;
     position: relative;
+    margin-left: 15rem;
 }
 
 /* Imagen secundaria */
@@ -115,7 +116,7 @@ legend {
         width: 100%;
     }
 
-    .header__logo-bg {
+    .imagenNav {
         width: 0%;
     }
 }
