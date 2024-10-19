@@ -54,6 +54,7 @@ h1, h2, h3, h4 {
     text-align: center;
     color: var(--negro);
     font-family: var(--fuentePrincipal);
+    font-weight: 100;
 }
 
 h1 {
@@ -70,6 +71,7 @@ h3 {
 
 h4 {
     font-size: 1.8rem;
+    font-weight: 50;
 }
 
 legend {
@@ -164,6 +166,11 @@ legend {
 
 .contenedor-imagen:hover .texto-hover {
     opacity: 1;
+}
+
+.estilo-span {
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 /*Footer*/
