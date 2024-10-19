@@ -209,6 +209,18 @@ legend {
     color: var(--negro);
 }
 
+.navegacion {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 /**Grid**/
 .grid {
     display: grid;
