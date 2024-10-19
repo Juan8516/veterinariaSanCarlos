@@ -136,6 +136,36 @@ legend {
     }
 }
 
+/*Mostrar texto*/
+.contenedor-imagen {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen {
+    width: 100%; /* Ajusta según tu preferencia */
+    height: auto;
+}
+
+/* Estilo del texto que aparecerá al pasar el cursor */
+.texto-hover {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    font-family: var(--fuentePrincipal);
+    transform: translate(-50%, -50%); 
+    color: var(--primarioOscuro);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.contenedor-imagen:hover .texto-hover {
+    opacity: 1;
+}
+
 /*Footer*/
 .footer {
     background-color: var(--primarioOscuro);

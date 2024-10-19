@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
         actualizarCarrito();
     }
 
-
     // Función para actualizar la pestaña del carrito
     function actualizarCarrito() {
         let carritoHTML = document.getElementById("carrito");
@@ -37,5 +36,5 @@ document.addEventListener('DOMContentLoaded', function() {
             const precioProducto = parseFloat(this.getAttribute('data-precio'));
             agregarAlCarrito(nombreProducto, precioProducto);
         });
-    });
+    });    
 });
