@@ -41,8 +41,11 @@ a {
     text-decoration: none;
 }
 
-img {
+img, svg {
     width: 100%;
+    filter: drop-shadow(
+        0 0 10px --negro
+    );
 }
 
 .contenedor {
