@@ -575,36 +575,49 @@ fieldset {
 
 
 /* Estilos Responsive */
-@media (max-width: 768px) {
-    .formulario .forma-contacto {
-        flex-direction: column;
-        max-width: 100%;
+@media (max-width: 600px) {
+    main.contenedor {
+        padding: 10px;
     }
 
-    .formulario input, .formulario select, .formulario textarea {
-        width: 100%;
+    .formulario {
+        gap: 15px;
     }
 
-    .formulario p {
-        font-size: 1.2rem;
+    fieldset {
+        padding: 10px;
     }
 
-    .formulario legend {
-        font-size: 1.8rem;
+    input, textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .boton-personalizado {
+        padding: 8px;
+        font-size: 16px;
     }
 }
 
-@media (max-width: 480px) {
-    .formulario legend {
-        font-size: 1.6rem;
+@media (min-width: 601px) and (max-width: 1024px) {
+    main.contenedor {
+        max-width: 90%;
     }
 
-    .formulario label {
-        font-size: 1.4rem;
+    .formulario {
+        gap: 20px;
     }
 
-    .formulario p {
-        font-size: 1rem;
+    fieldset {
+        padding: 15px;
+    }
+
+    input, textarea {
+        font-size: 16px;
+    }
+
+    .boton-personalizado {
+        font-size: 18px;
     }
 }
 
