@@ -5,6 +5,7 @@
     --secundarioClaro: #a4bef1;
     --blanco: #ffffff;
     --negro: #000;
+    --oscuroSuave: #000000;
 
     --fuentePrincipal: 'Staatliches', cursive;
 }
@@ -318,7 +319,7 @@ legend {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
-    margin-right: 20px;
+    margin-left: 200px;
 }
 
 /* Aside carrito */
@@ -328,6 +329,18 @@ legend {
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+.estilos-total {
+    font-family: var(--fuentePrincipal);
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--oscuroSuave);
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    margin-left: 250px;
 }
 
 /* Lista del carrito */
@@ -573,11 +586,14 @@ fieldset {
     font-family: var(--fuentePrincipal);
 }
 
-
 /* Estilos Responsive */
 @media (max-width: 600px) {
     main.contenedor {
-        padding: 10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        min-height: 100vh;
+        text-align: center;
     }
 
     .formulario {
